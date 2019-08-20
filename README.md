@@ -2,6 +2,12 @@
 
 Automatic Hyper Parameter Optimization to use with baseline, MEAD, and xpctl. Multiple configurations are sampled with random or grid based sampling methods. Parallel jobs are scheduled and results are aggregated and displayed.
 
+## Installation
+
+ * [Install mead](https://github.com/dpressel/baseline#installation)
+ * [Install xpctl](https://github.com/mead-ml/xpctl)
+ * `pip install -e .`
+
 Jobs are identified with a label that has 3 parts:
 
  * The experiment hash: This is the hash of the hpctl configuration file (with the sampling directives)
