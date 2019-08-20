@@ -1,0 +1,5 @@
+include hpctl/config/hpctl-logging.json
+include hpctl/config/sst2.json
+include hpctl/config/user.json
+include hpctl/data/adjectives.gz
+include hpctl/data/nouns.gz
